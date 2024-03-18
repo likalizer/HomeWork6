@@ -28,11 +28,17 @@
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system"/>
+                                                <connections>
+                                                    <action selector="shareButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gd0-ed-QgK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oW5-S4-mSN">
                                                 <rect key="frame" x="20" y="0.0" width="19.666666666666671" height="50"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system"/>
+                                                <connections>
+                                                    <action selector="exitToMainMenu:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="U3q-OH-n7S"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -146,6 +152,9 @@
                                                 <color key="backgroundColor" red="0.78431367870000002" green="0.74509805439999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="lipstickColour1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ieS-Y2-Cby"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AS8-VE-nNE">
                                         <rect key="frame" x="53" y="515" width="60" height="60"/>
@@ -159,6 +168,9 @@
                                                 <color key="backgroundColor" red="0.93333333730000001" green="0.73725497719999999" blue="0.74509805439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="lipstickColour2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WGW-AZ-Ze8"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hav-Hd-fOG">
                                         <rect key="frame" x="123" y="515" width="60" height="60"/>
@@ -172,6 +184,9 @@
                                                 <color key="backgroundColor" red="0.87450981139999995" green="0.49019610879999997" blue="0.53725492949999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="lipstickColour3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nDA-hi-tbq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5c-dl-CW7">
                                         <rect key="frame" x="193" y="515" width="60" height="60"/>
@@ -185,6 +200,9 @@
                                                 <color key="backgroundColor" red="0.92549020049999997" green="0.52156865600000002" blue="0.4352940917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="lipstickColour4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jHZ-8b-QhP"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRH-yJ-vlY">
                                         <rect key="frame" x="263" y="515" width="60" height="60"/>
@@ -198,6 +216,9 @@
                                                 <color key="backgroundColor" red="0.73333334920000004" green="0.50980395079999996" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="lipstickColour5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xNo-7f-pZg"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixu-2M-vWz">
                                         <rect key="frame" x="333" y="515" width="60" height="60"/>
@@ -211,6 +232,9 @@
                                                 <color key="backgroundColor" red="0.73333334920000004" green="0.50980395079999996" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="lipstickColour6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSr-Vo-ztx"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 000 грн / 100 мл з ПДВ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmx-SO-6Jx">
                                         <rect key="frame" x="22" y="610.66666666666663" width="154" height="14.666666666666629"/>
@@ -231,6 +255,9 @@
                                             </backgroundConfiguration>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="addToCart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l7O-Lp-PA0"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="IMG_3554" translatesAutoresizingMaskIntoConstraints="NO" id="jyR-KD-9PA">
                                         <rect key="frame" x="22" y="723" width="21" height="30"/>
@@ -252,6 +279,9 @@
                                         <buttonConfiguration key="configuration" style="plain" image="suit.heart" catalog="system" title="">
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="favoriteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UW5-FD-8xy"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHc-e2-GK5">
                                         <rect key="frame" x="171.33333333333334" y="721" width="51.333333333333343" height="34"/>
@@ -259,13 +289,19 @@
                                         <buttonConfiguration key="configuration" style="plain" image="handbag" catalog="system" title="">
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="cartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gA7-Xm-eUY"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atF-RS-PfN">
-                                        <rect key="frame" x="86" y="721" width="49.666666666666671" height="34"/>
+                                        <rect key="frame" x="86" y="721" width="49.666666666666657" height="34"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system" title="">
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="searchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3uj-1j-fEM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -347,6 +383,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XtG-DW-xL3" secondAttribute="bottom" id="gLK-zd-kSJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="availabilityProduct" destination="1U5-VC-yct" id="n2a-pE-Vjx"/>
+                        <outlet property="lipstickName" destination="JuO-bS-LV3" id="Lvn-Ee-IOG"/>
+                        <outlet property="productRate" destination="Nw3-G2-rKp" id="jdV-bx-tBp"/>
+                        <outlet property="productVAT" destination="kmx-SO-6Jx" id="T3h-Yu-HHL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
